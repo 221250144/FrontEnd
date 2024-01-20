@@ -1,0 +1,74 @@
+.container {
+  height: 100%;
+  background: #FFB6C1;
+}
+.login-wrapper {
+  background-color: white;
+  padding: 22rpx 55rpx 22rpx 55rpx;
+  position: relative;
+  left: 50%;
+  top: 22rpx;
+  width: 550rpx;
+  height: 930rpx;
+  transform: translate(-50%, 0);
+  border-radius: 35rpx;
+}
+.header {
+  margin-top: 70rpx;
+  font-size: 70rpx;
+  text-align: center;
+  font-weight: 700;
+  line-height: 45rpx;
+}
+.form-item {
+  margin-top: 45rpx;
+  display: block;
+  width: 100%;
+  padding: 22rpx;
+  border: 0;
+  border-bottom: 2rpx solid gray;
+  font-size: 35rpx;
+  margin-bottom: 22rpx;
+  outline: none;
+}
+.extra-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30rpx;
+}
+.checkbox1 .wx-checkbox-input {
+  border-radius: 50%;
+  width: 30rpx;
+  height: 30rpx;
+}
+.button {
+  text-align: center;
+  padding: 22rpx;
+  width: 100%;
+  margin-top: 45rpx;
+  color: black;
+  background: #20bd03;
+}
+.message {
+  margin-top: 45rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: blue;
+}
+.agree {
+  margin-top: 22rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30rpx;
+}
+.checkbox2 .wx-checkbox-input {
+  width: 30rpx;
+  height: 30rpx;
+}
+.protocol {
+  color: blue;
+}
+

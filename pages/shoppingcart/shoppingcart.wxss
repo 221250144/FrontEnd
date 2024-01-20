@@ -1,0 +1,26 @@
+.container {
+  height: 100%;
+  background: white;
+}
+.settlement {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 50rpx;
+}
+.selectAll {
+  display: flex;
+  flex-direction: row;
+}
+.totalPrice {
+  position: fixed;
+  right: 0;
+  margin-right: 350rpx;
+}
+.gotopay {
+  width: 200rpx;
+  height: 100rpx;
+  position: fixed;
+  right: 0;
+  margin-right: 30rpx;
+}

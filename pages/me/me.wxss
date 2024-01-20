@@ -1,0 +1,137 @@
+.container {
+  height: 100%;
+  background: white;
+}
+.userInformation {
+  top: 45rpx;
+}
+.users {
+  background-color: #FFB6C1;
+  padding: 45rpx 45rpx 0rpx 45rpx;
+  left: 50%;
+  position: relative;
+  width: 600rpx;
+  height: 230rpx;
+  border-radius: 35rpx;
+  transform: translate(-50%, 0);
+  font-size: 35rpx;
+  display: flex;
+  flex-direction: row;
+}
+.userInfo-avatar {
+  height: 200rpx;
+  width: 200rpx;
+  position: relative;
+  border-radius: 50%;
+}
+.otherInfo {
+  padding: 12rpx;
+  display: flex;
+  flex-direction: column;
+}
+.area {
+  margin-top: 22rpx;
+}
+.userInfo-gender {
+  margin-top: 22rpx;
+}
+.middle {
+  margin-top: 70rpx;
+  background-color: #EE82EE;
+  padding: 45rpx 22rpx 45rpx 22rpx;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, 0);
+  width: 590rpx;
+  height: 220rpx;
+  border-radius: 35rpx;
+  display: flex;
+  flex-direction: row;
+}
+.accountRemainder {
+  background-color: lightskyblue;
+  border-radius: 35rpx;
+  display: flex;
+  flex-direction: column;
+}
+.remainder1 {
+  font-size: 35rpx;
+  text-align: center;
+}
+.remainder2 {
+  font-size: 35rpx;
+  text-align: center;
+  margin-top: 12rpx;
+}
+.clickToRecharge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  margin-top: 35rpx;
+  padding: 0px;
+  width: 280rpx;
+  height: 160rpx;
+  border-radius: 70rpx;
+  color: white;
+}
+.collection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  border-radius: 35rpx;
+  width: 150rpx;
+  height: 220rpx;
+}
+.history {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: thistle;
+  border-radius: 35rpx;
+  width: 150rpx;
+  height: 220rpx;
+}
+.change {
+  display: flex;
+  flex-direction: row;
+  margin-top: 45rpx;
+  align-items: center;
+  justify-content: center;
+}
+.buy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFB6C1;
+  border-radius: 35rpx;
+  width: 200rpx;
+  height: 280rpx;
+  transform: translate(-35%, 0);
+  padding: 22rpx;
+}
+.sell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFB6C1;
+  border-radius: 35rpx;
+  width: 200rpx;
+  height: 280rpx;
+  transform: translate(35%, 0);
+  padding: 22rpx;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 35rpx;
+  width: 200rpx;
+  height: 120rpx;
+  font-size: 35rpx;
+  margin-top: 12rpx;
+}

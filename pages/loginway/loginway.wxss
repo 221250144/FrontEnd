@@ -1,0 +1,22 @@
+.container {
+  height: 100%;
+  background: #FFB6C1;
+}
+.wx-login-button {
+  top: 350rpx;
+  background-color: green;
+  position: relative;
+  width: 450rpx;
+  text-align: center;
+  border-radius: 50rpx;
+  color: whitesmoke;
+}
+.account-login-button {
+  top: 450rpx;
+  background-color: gray;
+  position: relative;
+  width: 450rpx;
+  text-align: center;
+  border-radius: 50rpx;
+  color: whitesmoke;
+}

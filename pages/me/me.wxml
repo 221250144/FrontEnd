@@ -1,0 +1,58 @@
+<view class="container">
+  <view class="userInformation">
+    <!-- 授权前 -->
+    <block wx:if="{{!hasUserInfo}}">
+      <button bindtap="wechatLogin">点击登录</button>
+    </block>
+    <!-- 授权后 -->
+    <block wx:else>
+      <view class="users">
+        <image class="userInfo-avatar" src="{{avatarUrl}}" mode="cover"></image>
+        <view class="otherInfo">
+          <text class="userInfo-nickname">昵称：{{nickname}}</text>
+          <view class="area">
+            <text class="userInfo-country">地区：{{country}}</text>
+            <text decode="{{true}}">&nbsp;&nbsp;</text>
+            <text class="userInfo-province">{{province}}</text>
+            <text decode="{{true}}">&nbsp;&nbsp;</text>
+            <text class="userInfo-city">{{city}}</text>
+          </view>
+          <text class="userInfo-gender">性别：{{gender}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+  <view class="middle">
+    <view class="accountRemainder">
+      <text class="remainder1">账户余额</text>
+      <text class="remainder2">{{accountRemainder}}乐淘币</text>
+      <button bindtap="" class="clickToRecharge">点击充值</button>
+    </view>
+    <view class="collection">
+      <button bindtap="" class="collection">收藏</button>
+    </view>
+    <view class="history">
+      <button bindtap="" class="history">足迹</button>
+    </view>
+  </view>
+  <view class="change">
+    <view class="buy">
+      <text>我买的</text>
+      <view class="isIn">
+        <button class="button">已到货</button>
+      </view>
+      <view class="isNotIn">
+        <button class="button">未到货</button>
+      </view>
+    </view>
+    <view class="sell">
+      <text>我卖的</text>
+      <view class="isOut">
+        <button class="button">已卖出</button>
+      </view>
+      <view class="isNotOut">
+        <button class="button">未卖出</button>
+      </view>
+    </view>
+  </view>
+</view>

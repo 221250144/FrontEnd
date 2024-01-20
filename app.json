@@ -1,0 +1,55 @@
+{
+  "entryPagePath": "pages/home/home",
+  "pages": [
+    "pages/loginway/loginway",
+    "pages/login/login",
+    "pages/home/home",
+    "pages/goods/goods",
+    "pages/shoppingcart/shoppingcart",
+    "pages/me/me",
+    "pages/search/search",
+    "pages/food/food",
+    "pages/clothes/clothes",
+    "pages/furnishing/furnishing",
+    "pages/study/study",
+    "pages/electric/electric",
+    "pages/daily/daily",
+    "pages/medical/medical",
+    "pages/sport/sport"
+  ],
+  "window": {
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#FFB6C1",
+    "list":[
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/home_noselected.png",
+        "selectedIconPath": "images/home_selected.png"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "text": "我有好货",
+        "iconPath": "images/goods_noselected.png",
+        "selectedIconPath": "images/goods_selected.png"
+      },
+      {
+        "pagePath": "pages/shoppingcart/shoppingcart",
+        "text": "购物车",
+        "iconPath": "images/shoppingcart_noselected.png",
+        "selectedIconPath": "images/shoppingcart_selected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/me_noselected.png",
+        "selectedIconPath": "images/me_selected.png"
+      }
+    ]
+  }
+}

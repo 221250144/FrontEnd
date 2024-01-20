@@ -1,0 +1,45 @@
+<view class="container">
+  <view class="search">
+    <button bindtap="toSearch" class="searchbutton">
+      <image src="../../images/search.png"></image>
+      <text>搜索</text>
+    </button>
+  </view>
+  <view class="sort">
+    <button class="sort-item" bindtap="food">
+      <image src="../../images/food.png"></image>
+      <text>食品</text>
+    </button>
+    <button class="sort-item" bindtap="clothes">
+      <image src="../../images/clothes.png"></image>
+      <text>服装</text>
+    </button>
+    <button class="sort-item" bindtap="furnishing">
+      <image src="../../images/furnishing.png"></image>
+      <text>家居</text>
+    </button>
+    <button class="sort-item" bindtap="study">
+      <image src="../../images/study.png"></image>
+      <text>学习</text>
+    </button>
+    <button class="sort-item" bindtap="electric">
+      <image src="../../images/electric.png"></image>
+      <text>电子</text>
+    </button>
+    <button class="sort-item" bindtap="daily">
+      <image src="../../images/daily.png"></image>
+      <text class="daily">日用品</text>
+    </button>
+    <button class="sort-item" bindtap="medical">
+      <image src="../../images/medical.png"></image>
+      <text>医疗</text>
+    </button>
+    <button class="sort-item" bindtap="sport">
+      <image src="../../images/sport.png"></image>
+      <text>运动</text>
+    </button>
+  </view>
+  <view class="recommend">
+    <view class="recommend_goods">推荐商品</view>
+  </view>
+</view>

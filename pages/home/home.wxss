@@ -1,0 +1,61 @@
+.container {
+  height: 100%;
+  background: white;
+}
+.search {
+  padding: 20rpx;
+}
+.searchbutton {
+  text-align: center;
+  width: 100%;
+  height: 70rpx;
+  background: #EEEEEE;
+  border: 4rpx solid #FFFFFF;
+  border-radius: 18rpx;
+  line-height: 60rpx;
+  box-sizing: border-box;
+}
+.searchbutton > image {
+  height: 40rpx;
+  width: 40rpx;
+  vertical-align: middle;
+}
+.searchbutton > text {
+  font-size: 35rpx;
+  color: #B1B1B1;
+}
+.sort {
+  display: flex;
+  flex-wrap: wrap;
+  height: 380rpx;
+  align-content: space-around;
+}
+.sort-item {
+  width: 160rpx;
+  height: 180rpx;
+  text-align: center;
+  background: none;
+  font-size: 35rpx;
+}
+.sort-item::after {
+  border: none;
+}
+.sort-item > image {
+  width: 70rpx;
+  height: 70rpx;
+}
+.daily {
+  font-size: 32rpx;
+}
+.recommend {
+  padding: 0 70rpx;
+  background: #FFFFFF;
+  margin-bottom: 50rpx;
+}
+.recommend_goods {
+  height: 110rpx;
+  font-size: 43rpx;
+  font-weight: bold;
+  border-bottom: 2rpx solid #F1EEF5;
+  line-height: 110rpx;
+}

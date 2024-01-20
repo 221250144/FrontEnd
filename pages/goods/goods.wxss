@@ -1,0 +1,42 @@
+.container {
+  height: 100%;
+  background: white;
+  padding: 20rpx;
+}
+input {
+  margin-top: 45rpx;
+  display: block;
+  width: 100%;
+  padding: 22rpx;
+  border: 0;
+  border-bottom: 2rpx solid gray;
+  font-size: 35rpx;
+  margin-bottom: 22rpx;
+  outline: none;
+}
+text {
+  font-weight: bold;
+}
+.goodspicture > button {
+  position: absolute;
+  margin-top: 50rpx;
+  left: 50rpx;
+  width: 120rpx;
+  height: 120rpx;
+}
+.goodspicture > button > text {
+  font-size: 40rpx;
+  align-content: center;
+  text-align: center;
+}
+.submit {
+  position: relative;
+  text-align: center;
+  padding: 22rpx;
+  width: 20%;
+  height: 150rpx;
+  margin-top: 45rpx;
+  color: black;
+  background: #20bd03;
+  transform: translate(0, 100%);
+}

@@ -1,0 +1,39 @@
+<view class="container">
+  <view class="login-wrapper">
+    <view class="header">
+      <text>账号登录</text>
+    </view>
+    <view class="form-wrapper">
+      <form bindsubmit="form-submit">
+        <view class="form-item">
+          <label for="username">用户名：</label>
+          <input type="text" placeholder="用户名" name="username" />
+        </view>
+        <view class="form-item">
+          <label for="password">密码：</label>
+          <input type="text" placeholder="密码" name="password" />
+        </view>
+        <view class="extra-item">
+          <checkbox class="checkbox1"></checkbox>
+          <view class="auto-register">自动登录</view>
+          <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+          <checkbox class="checkbox1"></checkbox>
+          <view class="remember-password">记住密码</view>
+        </view>
+        <button type="submit" class="button">登录</button>
+      </form>
+    </view>
+    <view class="message">
+      <navigator url="#">忘记密码</navigator>
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+      <navigator url="#">注册新用户</navigator>
+    </view>
+    <view class="agree">
+      <checkbox class="checkbox2"></checkbox>
+      <view>我已知晓并同意乐淘淘的</view>
+      <navigator url="#" class="protocol">
+        用户协议
+      </navigator>
+    </view>
+  </view>
+</view>
