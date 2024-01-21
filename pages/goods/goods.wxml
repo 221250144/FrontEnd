@@ -2,22 +2,22 @@
   <form bindsubmit="goodssubmit">
     <view class="goodsname">
       <text>商品名称</text>
-      <input type="text" name="goodsname" placeholder="请输入商品名"/>
+      <input type="text" name="goodsname" bindinput="getName" placeholder="请输入商品名"/>
     </view>
     <view class="goodsdescription">
       <text>商品描述</text>
-      <input type="text" name="goodsdescription" placeholder="请输入商品描述"/>
+      <input bindinput="getDescription" type="text" name="goodsdescription" placeholder="请输入商品描述"/>
     </view>
     <view class="goodsprice">
       <text>商品价格</text>
-      <input type="text" name="goodsdescription" placeholder="请输入商品价格"/>
+      <input bindinput="getPrice" type="text" name="goodsdescription" placeholder="请输入商品价格"/>
     </view>
     <view class="goodspicture">
       <text>添加商品图片</text>
-      <button bindtap="handleChooseImg">
+      <button bindtap="chooseImage">
         <text>+</text>
       </button>
     </view>
-    <button formType="submit" class="submit">提交</button>
+    <button formType="submit" class="submit" bindtap="submit">提交</button>
   </form>
 </view>
