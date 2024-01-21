@@ -40,6 +40,24 @@ Page({
 
   goodssubmit: function () {
     var that = this;
+    console.log(name, description, price, type);
+    wx.request({
+      url: 'http://localhost:8080/addGoods',
+      method: 'GET',
+      data: {
+        name,
+        description,
+        price,
+        type,
+      },
+      success(res){
+        console.log("添加成功", res)
+      },
+      fail(res){
+        console.log("添加失败", res)
+      }
+    })
+  
     // 上传图片
     wx.uploadFile({
       url: 'http://localhost:8080/updateGoodsImage',
@@ -78,22 +96,5 @@ Page({
       }
     });
     
-    console.log(name, description, price, type);
-    wx.request({
-      url: 'http://localhost:8080/addGoods',
-      method: 'GET',
-      data: {
-        name,
-        description,
-        price,
-        type,
-      },
-      success(res){
-        console.log("添加成功", res)
-      },
-      fail(res){
-        console.log("添加失败", res)
-      }
-    })
   }
 })
