@@ -1,20 +1,26 @@
 const app = getApp();
-let name, description, price;
+let name, description, price, type;
 
 Page({
   getName(event) {
     console.log(event.detail.value);
-    name: event.detail.value;
+    name = event.detail.value;
     },
 
     getDescription(event) {
-      description: event.detail.value;
+      console.log(event.detail.value);
+      description = event.detail.value;
     },
 
     getPrice(event) {
-      price: event.detail.value;
+      console.log(event.detail.value);
+      price = event.detail.value;
     },
 
+    handleTypeChange(event) {
+      console.log(event.detail.value);
+      type = event.detail.value;
+    },
 
   // 选择图片
   chooseImage: function () {
@@ -32,7 +38,7 @@ Page({
   },
 
 
-  submit: function () {
+  goodssubmit: function () {
     var that = this;
     // 上传图片
     wx.uploadFile({
@@ -72,29 +78,15 @@ Page({
       }
     });
     
-    console.log(username, age, id, password,)
-    wx.request({
-      url: 'http://localhost:8080/add',
-      method: 'GET',
-      data: {
-        name: username,
-        age,
-        id,
-        password,
-      },
-      success(res){
-        console.log("添加成功", res)
-      },
-      fail(res){
-        console.log("添加失败", res)
-      }
-    })
-
+    console.log(name, description, price, type);
     wx.request({
       url: 'http://localhost:8080/addGoods',
       method: 'GET',
       data: {
-        name
+        name,
+        description,
+        price,
+        type,
       },
       success(res){
         console.log("添加成功", res)
@@ -103,8 +95,5 @@ Page({
         console.log("添加失败", res)
       }
     })
-
-
-
   }
 })

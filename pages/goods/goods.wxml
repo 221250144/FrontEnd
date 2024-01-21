@@ -12,12 +12,25 @@
       <text>商品价格</text>
       <input bindinput="getPrice" type="text" name="goodsdescription" placeholder="请输入商品价格"/>
     </view>
+    <view class="goodstype">
+      <text>商品种类</text>
+      <radio-group name="goodstype" bindchange="handleTypeChange">
+        <radio value="food" color="red">食品</radio>
+        <radio value="clothes" color="red">服装</radio>
+        <radio value="furnishing" color="red">家居</radio>
+        <radio value="study" color="red">学习</radio>
+        <radio value="electric" color="red">电子</radio>
+        <radio value="daily" color="red">日用品</radio>
+        <radio value="medical" color="red">医疗</radio>
+        <radio value="sport" color="red">运动</radio>
+      </radio-group>
+    </view>
     <view class="goodspicture">
       <text>添加商品图片</text>
       <button bindtap="chooseImage">
         <text>+</text>
       </button>
     </view>
-    <button formType="submit" class="submit" bindtap="submit">提交</button>
+    <button formType="submit" class="submit">提交</button>
   </form>
 </view>
